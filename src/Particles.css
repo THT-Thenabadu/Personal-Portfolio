@@ -1,0 +1,22 @@
+.particles{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: float linear infinite;
+}
+
+@keyframes float {
+    from {
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(var(--x), var(--y));
+    }
+}

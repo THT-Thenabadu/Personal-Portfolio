@@ -1,0 +1,21 @@
+.Container{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    width: 1000px;
+    padding: 10px;
+    font-family: "Lilita One", sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Heading{
+    color: red;
+
+}
+
+.paragraph{
+    color: red;
+}
